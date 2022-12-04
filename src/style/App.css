@@ -1,3 +1,5 @@
+
+/*################## Header #########################*/
 .header {
     display: flex;
     align-items: center;
@@ -7,16 +9,10 @@
     padding:20px
 }
 
-.nav-tabs {
-    list-style: none;
+.nav-tabs .nav-link {
+    color:white;
 }
 
-.nav-item {
-    color:green;
-    list-style: none;
-}
-
-.nav-link {
-    color:green;
-    list-style: none;
+ul.nav.nav-tabs { /*remove the border from the navbar */
+    border-style: none;
 }
