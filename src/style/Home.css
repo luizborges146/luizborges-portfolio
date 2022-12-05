@@ -28,6 +28,12 @@ h2, h3 {
     font-size: 35px; /*check if i need to separete the font size*/
 }
 
+h2.change-color {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 364%;
+}
+
 .picture-main img{
     height: 500px;
     width: auto;

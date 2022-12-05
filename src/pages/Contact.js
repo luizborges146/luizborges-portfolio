@@ -51,7 +51,7 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <p>Thank you {userName}, for sending a request!</p>
+      <p>Thank you <span>{userName}</span>, for sending a request!</p>
       <form className="form">
         <h5>Name:</h5>
         <input
@@ -67,7 +67,7 @@ export default function Contact() {
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="email"
+            placeholder="Email"
           />
           <h5>Message:</h5>
           <textarea className="message-input"
@@ -76,7 +76,7 @@ export default function Contact() {
             onChange={handleInputChange}
             // onChange={orThisWayForAll}
             type="text"
-            placeholder="message"
+            placeholder="Message"
           />
 
           {errorMessage && (

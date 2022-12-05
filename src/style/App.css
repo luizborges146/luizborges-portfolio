@@ -25,6 +25,11 @@
     color:var(--white-color);
     padding:20px;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.header h1 {
+    font-weight: bolder;
 }
 
 .nav-tabs .nav-link {

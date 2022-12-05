@@ -24,10 +24,12 @@
     height: 80vh;
     padding: 5% 15%;
 }
+.contact p {
+    font-size: 30px;
+}
 
-
-.form {
-    
+.contact p span {
+    color:var(--btn-color)
 }
   
 .form input {
