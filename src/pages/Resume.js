@@ -10,21 +10,14 @@ export default function Resume() {
 				<div>
 					<ul className ="list-container">
 						<li className="skills-list">
-							<abbr title="MongoDb Express React Node">MERN</abbr>/
-							<abbr title="MongoDb Express Angular Node">MEAN</abbr> Development
+							<abbr>MERN</abbr> Development
 						</li>
 						<li className="skills-list">
-							Java / Java <abbr title="Enterprise Edition">EE</abbr>{' '}
-							programming
+							Java / Java programming
 						</li>
-						<li className="skills-list">
-							Project Planning & Development{' '}
-							<abbr title="Software Development and Operations">(DevOps)</abbr>
-						</li>
+						<li className="skills-list">Project Planning & Development</li>
 						<li className="skills-list">Full Stack Development</li>
-						<li className="skills-list">
-							<abbr title="User Experience/ User Interface">UX/UI</abbr>
-						</li>
+						<li className="skills-list">UX/UI</li>
 						<li className="skills-list">Clean Coding</li>
 						<li className="skills-list">Agile / Scrum Development</li>
 						<li className="skills-list">Testing & Troubleshooting</li>
