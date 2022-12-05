@@ -1,6 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { phoneNumber, validateEmail } from '../utils/helpers';
 
 export default function Contact() {
+
+  const [userName, setUserName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'userName') {
+      setUserName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !userName) {
+      setErrorMessage('Email or username is invalid');
+      return;
+    }
+    if (!checkPassword(password)) {
+      setErrorMessage(
+        `Choose a more secure password for the account: ${userName}`
+      );
+      return;
+    }
+    alert(`Hello ${userName}`);
+
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setUserName('');
+    setPassword('');
+    setEmail('');
+
+    // setformInfo({email: "",userName: "",password: "",errorMessage: "" })
+  };
+
+
   return (
     <div>
       <h1>Contact Page!!!</h1>
