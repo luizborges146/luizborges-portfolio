@@ -26,13 +26,18 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!userName) {
+      setErrorMessage('Please enter your Name');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Please enter a valid email');
       return;
     }
 
     if (!message) {
-      setErrorMessage('Please add the message ');
+      setErrorMessage('Please enter a message in order to submit your request');
       return;
     }
     alert(`Hello ${userName}`);
@@ -46,15 +51,15 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <p>Hello {userName}</p>
+      <p>Thank you {userName}, for sending a request!</p>
       <form className="form">
-        <h5>User Name:</h5>
+        <h5>Name:</h5>
         <input
             value={userName}
             name="userName"
             onChange={handleInputChange}
             type="text"
-            placeholder="user name"
+            placeholder="Name"
           />
           <h5>Email:</h5>
           <input
@@ -73,13 +78,13 @@ export default function Contact() {
             type="text"
             placeholder="message"
           />
+
+          {errorMessage && (
+          <div> <p className="error-text">{errorMessage}</p> </div>
+          )}
           <button type="button" className="btn" onClick={handleFormSubmit}>Submit</button>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+      
     </div>
   );
 }
