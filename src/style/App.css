@@ -58,9 +58,27 @@ ul.nav.nav-tabs { /*remove the border from the navbar */
     padding-top:20px;
     background-color: var(--dark-back-c);
     
-  } 
+}
+
+section.remove-margin {
+    margin:0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+
+}
 
   footer.text-center.text-white {
     background-color: var(--dark-back-c);
-    
-  }
+    padding:8px
+}
+
+.icons-footer {
+    font-size: 250%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.icons-footer:hover{
+    color:var(--btn-color);
+    transition: .5s;
+}

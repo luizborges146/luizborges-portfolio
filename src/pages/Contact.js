@@ -52,7 +52,7 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <p>Thank you <span>{userName}</span>, for sending a request!</p>
+      <p>Thank you <span>{userName}</span>, for sending a message!</p>
       <form className="form">
         <h5>Name:</h5>
         <input

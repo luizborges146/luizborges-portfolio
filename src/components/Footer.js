@@ -4,14 +4,14 @@ import '../style/App.css'
 export default function Footer() {
 	return (
         <footer className="text-center text-white">
-            <div Nameclass="container pt-4">
-            <section className="mb-4">
+            <div className="container">
+            <section className=" remove-margin">
                 <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
-                    <i class="fab fa-github"></i>
-                </a>
+                <i class="fab fa-linkedin  icons-footer"></i></a>
+
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.linkedin.com/in/luiz-borges-2377b7142" role="button" data-mdb-ripple-color="dark">
+                <i class="fab fa-github icons-footer"></i></a>
+
             </section>
             </div>
 
