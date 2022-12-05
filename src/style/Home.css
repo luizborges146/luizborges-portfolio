@@ -1,0 +1,44 @@
+:root{
+    --dark-back-c:rgb(11,11,26);/* set up two background color DARK*/
+    --light-back-c:rgb(27,27,59);/* set up two background color light*/
+    --btn-color:#eb1a5c;/*apply some color to specifics place*/
+    --white-color:rgb(226, 226, 226);/*white color is too bright, so i created a off-white color to help with the visual*/
+    --border-r:30px;/*to create a nice round effect */
+}
+/*Universal selector*/
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+/*################## Universal Selector End #########################*/
+
+.change-color:hover{
+    color:var(--btn-color);
+    transition: .5s;
+}
+
+
+h2, h3 {
+    color:var(--white-color);
+    margin: 15px 0px;
+    font-size: 35px; /*check if i need to separete the font size*/
+}
+
+.picture-main img{
+    height: 500px;
+    width: auto;
+    border-radius: 75px;
+}
+
+.main{
+    width: 100%;
+    height: 80vh;/*Used vh to get the whole page as the main*/
+    background-color: var(--light-back-c);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}

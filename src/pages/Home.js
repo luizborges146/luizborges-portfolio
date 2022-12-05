@@ -1,21 +1,23 @@
 import React from 'react';
+// import luiz from '../assets/luiz.PNG';
+import luiz from '../assets/PNG image.PNG';
+import '../style/Home.css'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className="main">
+      <section class ="my-name">
+        <h3>Hey, my name is</h3>
+        <h2 class="change-color">Luiz Borges</h2>
+        <h3>I am on my way to become</h3>
+        <h2 class="change-color">a Web Developer</h2>
+
+      </section>
+
+      <section class="picture-main">
+        <img src={luiz} alt="test"/>           
+      </section>
+    
     </div>
   );
 }
