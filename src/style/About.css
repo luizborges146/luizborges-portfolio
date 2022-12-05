@@ -21,9 +21,7 @@
     width: 100%;
     height: 80vh;
     background-color: var(--light-back-c);
-    padding:60px 0px;
-    border: 5px solid transparent;/*need to remove, just checking the border*/
-
+    padding:15px 0px;
 }
 
 .title-am {

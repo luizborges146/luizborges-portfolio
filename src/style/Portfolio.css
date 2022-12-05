@@ -16,3 +16,95 @@
 }
 
 /*################## Universal Selector End #########################*/
+
+.work{
+    background-color: var(--light-back-c);
+    padding:10px 0px;
+    width: 100%;
+}
+
+.title h2{
+    color: var(--white-color);
+    text-align: center;
+    margin: 25px auto;
+    font-size: 50px;
+    width: 1100;
+    
+}
+
+
+ul#port-photos {
+	width:1100px;
+	margin:0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+    flex-wrap: wrap;
+}
+
+ul#port-photos li {
+	float:left;
+	width:430px;
+	height:215px;
+	margin:10px;
+    margin-right: 25px;
+	border: 2px solid var(--white-color);
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	transition: all 0.3s ease-in;
+}
+
+ul#port-photos li#pic01 {
+    width:900px;
+	height:auto;
+}
+
+ul#port-photos li span {
+    font-size: 32px;
+	opacity:1;
+	color: #ffffff;
+	text-shadow:1px 1px 1px #000000;
+	background-color: rgba(0,0,0,1);
+	line-height:370px;
+	
+}
+
+ul#port-photos li:hover {
+	transform:scale(1.1);
+	
+}
+
+ul#port-photos li:hover span{
+	opacity:1;
+}
+/*Add the picture to the page*/
+ul#port-photos li#pic01 {
+	background: url('../assets/google-glass.png') no-repeat;/*	The background-image is not repeated. The image will only be shown once*/
+	background-position:50% 50%;
+	background-color:#ffffff;
+}
+
+ul#port-photos li#pic01:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}
+
+ul#port-photos li#pic02 {
+	background: url('../assets/seo.png') no-repeat;
+	background-position:50% 50%;
+	background-color:#ffffff;
+}
+ul#port-photos li#pic02:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}
+
+ul#port-photos li#pic03 {
+	background: url('../assets/snippet-cheatsheet.png') no-repeat;
+	background-position:50% 50%;
+	background-color:#ffffff;
+}
+ul#port-photos li#pic03:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}

@@ -4,9 +4,9 @@ import '../style/Portfolio.css'
 
 export default function Portfolio() {
   return (
-    <div class="work" id="work-gall">
-        <div class="title">
-            <h2>Gallery</h2>
+    <div className="work" id="work-gall">
+        <div className="title">
+            <h2>Portfolio</h2>
         </div>
 
         <div class="box">
