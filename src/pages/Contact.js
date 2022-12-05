@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { phoneNumber, validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 export default function Contact() {
 
@@ -30,39 +30,56 @@ export default function Contact() {
       setErrorMessage('Email or username is invalid');
       return;
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
+
+    if (!message) {
+      setErrorMessage('Please add the message ');
       return;
     }
     alert(`Hello ${userName}`);
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
-    setPassword('');
+    setMessage('');
     setEmail('');
 
-    // setformInfo({email: "",userName: "",password: "",errorMessage: "" })
   };
 
 
   return (
-    <div>
-      <h1>Contact Page!!!</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className="contact">
+      <p>Hello {userName}</p>
+      <form className="form">
+        <h5>User Name:</h5>
+        <input
+            value={userName}
+            name="userName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="user name"
+          />
+          <h5>Email:</h5>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+          />
+          <h5>Message:</h5>
+          <textarea className="message-input"
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            // onChange={orThisWayForAll}
+            type="text"
+            placeholder="message"
+          />
+          <button type="button" className="btn" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 }

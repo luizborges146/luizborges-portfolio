@@ -1,6 +1,6 @@
 import React from 'react';
 import luizMirror from '../assets/luizborges-mirror.jpeg';
-import '../style/About.css'
+import '../style/Contact.css'
 
 
 export default function About() {
