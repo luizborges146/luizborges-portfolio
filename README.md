@@ -1,7 +1,7 @@
 # Luiz Borges Portfolio
 
-* [GitHub repository](https://github.com/luizborges146/luizborges-portfolio) Link to the repository<br />
-* [Live link]() This is the video showing the application<br />
+* [GitHub repository](https://github.com/luizborges146/luizborges-portfolio)<br />
+* [Live link](https://luizborges146.github.io/luizborges-portfolio/#home)<br />
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
