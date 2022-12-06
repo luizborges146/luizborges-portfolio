@@ -17,6 +17,11 @@
 
 /*################## Universal Selector End #########################*/
 
+.portfolio-container {
+	padding: 25px 30px;
+
+}
+
 .work{
     background-color: var(--light-back-c);
     padding:10px 0px;
@@ -79,7 +84,7 @@ ul#port-photos li:hover span{
 }
 /*Add the picture to the page*/
 ul#port-photos li#pic01 {
-	background: url('../assets/google-glass.png') no-repeat;/*	The background-image is not repeated. The image will only be shown once*/
+	background: url('../assets/4play.png') no-repeat;/*	The background-image is not repeated. The image will only be shown once*/
 	background-position:50% 50%;
 	background-color:#ffffff;
 }
@@ -108,3 +113,37 @@ ul#port-photos li#pic03:hover {
 	background-position:0px 0px;
 	background-size:100%;
 }
+
+
+/*#########  ########################  #########################*/
+
+.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+  }
+  
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	color: #f1f1f1; 
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+  }

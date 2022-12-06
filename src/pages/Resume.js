@@ -29,21 +29,20 @@ export default function Resume() {
 				</div>
 			</div>
 
-			<div className="technologies_container">
-				<h3>Skill Set</h3>
-				<ul>
-					<li className="technologies_li">
-						<span className="technologies">FrontEnd:</span><span>  React, HTML, CSS, Graphql,{' '}
-						<abbr title="Representational State Transfer">REST</abbr>, Fetch,
+			<div className="skill_set">
+				<h2>Skill Set</h2>
+				<ul className="list-container">
+					<li className="skills-list">
+						<span className="technologies">FrontEnd:</span><span>  React, HTML, CSS, Graphql, REST, Fetch,
 						JQuery</span> 
 					</li>
-					<li className="technologies_li">
+					<li className="skills-list">
 						<span className="technologies">BackEnd: </span><span> Express, Node, Sequelize, Mongoose & Axios</span>
 					</li>
-					<li className="technologies_li">
+					<li className="skills-list">
 						<span className="technologies"> Databases:</span><span> SQL, MySQL, MongoDB</span>
 					</li>
-					<li className="technologies_li">
+					<li className="skills-list">
 						<span className="technologies">Tools:</span><span> GitHub, Git, VS Code, Eclipse, Insomnia, MongoDB Compass,</span>
 					</li>
 				</ul>

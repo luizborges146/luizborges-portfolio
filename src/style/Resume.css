@@ -42,39 +42,25 @@
 	font-size: 20px;    
 }
 /* ############################  technologies_container  #################*/
-.technologies_container {
-	background-color: var(--highlight-color);
-	margin: 0px 5%;
-	border-radius: 1rem;
-}
-.technologies_container h3 {
-	font-size: 30px;
-	padding: 30px;
-	margin-bottom: 30px;
-}
+
 
 .technologies {
-	font-size: xx-large;
-	font-weight: 500;
+	font-size: 125%;
+	font-weight: 100%;
 }
-.technologies_li {
-	margin-left: 5%;
-    padding-bottom: 20px;
-    font-size: 25px;
-}
+
 /*  ######################  Download #########################  */
 
 .download_Link {
 	background-color: var(--highlight-color);
 	margin: 60px 5% 0px;
-	border-radius: 1rem;
 	display: flex;
 	justify-content: center;
 }
 
 .download_aTag {
-	color: var(--white-color);
-	font-size: 25px;
+	color: black;
+	font-size: 20px;
 	font-weight: bold;
 	margin: 20px;
 	transition: .5s;
@@ -82,11 +68,12 @@
     border: .5px rgba(255, 255, 255, 0.206) solid;
     padding:15px;
     border-radius: 45px;
-    background-color: var(--dark-back-c);
+    background-color: var(--white-color);
 }
 
 .download_aTag:hover {
-	color: var(--btn-color);
+	color: var(--white-color);
+    background-color: var(--btn-color);
     border: none;
 }
 
