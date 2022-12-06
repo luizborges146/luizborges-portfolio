@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/luizborges-portfolio/static/css/main.ec90569d.css",
+    "main.js": "/luizborges-portfolio/static/js/main.81f9d82a.js",
+    "static/media/PNG image.PNG": "/luizborges-portfolio/static/media/PNG image.28330cffcf5b4a51723f.PNG",
+    "static/media/4play.png": "/luizborges-portfolio/static/media/4play.6ebdaa78469008bdd5fa.png",
+    "static/media/google-glass.png": "/luizborges-portfolio/static/media/google-glass.578e80477fffe9151299.png",
+    "static/media/seo.png": "/luizborges-portfolio/static/media/seo.6166e8e8286c3a32eb05.png",
+    "static/media/luiz-resume.pdf": "/luizborges-portfolio/static/media/luiz-resume.3aa96001df80b54d0c2a.pdf",
+    "static/media/snippet-cheatsheet.png": "/luizborges-portfolio/static/media/snippet-cheatsheet.eeccd80aae61c9cdd6b0.png",
+    "static/media/weather.png": "/luizborges-portfolio/static/media/weather.8239dc347c3238b8e4b1.png",
+    "static/media/newbieBay.png": "/luizborges-portfolio/static/media/newbieBay.a7126f6bc1aa2422a0e7.png",
+    "static/media/luizborges-mirror.jpeg": "/luizborges-portfolio/static/media/luizborges-mirror.9af48f2b450e6ea11cc8.jpeg",
+    "index.html": "/luizborges-portfolio/index.html",
+    "main.ec90569d.css.map": "/luizborges-portfolio/static/css/main.ec90569d.css.map",
+    "main.81f9d82a.js.map": "/luizborges-portfolio/static/js/main.81f9d82a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec90569d.css",
+    "static/js/main.81f9d82a.js"
+  ]
+}
