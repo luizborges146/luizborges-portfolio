@@ -6,6 +6,8 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+
+
     
 ## Table of Contents
     
@@ -22,7 +24,7 @@
 The idea of this application is to be able to manipulate the data using react components, with that in mind, the user can choose from navigating through the Home, About Me, Portfolio Contact and Resume. After the user navigate and check the pages, it will have an opportunity to send me a message or download my resume.
 
 
-![alt Create a new user](assets/images/mongoDb.gif)
+![alt Create a new user](./src/assets/luizportfolio.png)
 
 
 ## [Instalation](#instalation)
