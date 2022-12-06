@@ -18,9 +18,29 @@
 /*################## Universal Selector End #########################*/
 
 .portfolio-container {
-	padding: 25px 30px;
-
+	padding: 5%;
+	background-color: var(--light-back-c);
 }
+
+.portfolio-card {
+	padding-bottom: 20px;
+}
+
+.card {
+	max-width: 360px;
+	min-height: 449px;
+}
+
+.card-img-top {
+	max-height: 163px;
+	min-height: 163px;
+}
+
+a h5 {
+	text-decoration: none;
+}
+
+
 
 .work{
     background-color: var(--light-back-c);
