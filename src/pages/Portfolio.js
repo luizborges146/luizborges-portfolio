@@ -35,7 +35,7 @@ export default function Portfolio() {
 
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
-              <a href="https://fp-4play.herokuapp.com/0" target="_blank" rel="noopener noreferrer">
+              <a href="*" target="_blank" rel="noopener noreferrer">
               <img
                 src={seo}
                 className="card-img-top"
