@@ -13,8 +13,7 @@ export default function Portfolio() {
   return (
 
     <div className="portfolio-container">
-      {/*############################################## Second Block line ################################# */}
-
+      {/*############################################ Second Block line ################################# */}
       <div className="portfolio-card">
         <div className="row">
           <div className="col-lg-4">

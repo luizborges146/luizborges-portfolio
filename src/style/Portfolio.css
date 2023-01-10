@@ -106,36 +106,7 @@ ul#port-photos li:hover span{
 	opacity:1;
 }
 /*Add the picture to the page*/
-ul#port-photos li#pic01 {
-	background: url('../assets/4play.png') no-repeat;/*	The background-image is not repeated. The image will only be shown once*/
-	background-position:50% 50%;
-	background-color:#ffffff;
-}
 
-ul#port-photos li#pic01:hover {
-	background-position:0px 0px;
-	background-size:100%;
-}
-
-ul#port-photos li#pic02 {
-	background: url('../assets/seo.png') no-repeat;
-	background-position:50% 50%;
-	background-color:#ffffff;
-}
-ul#port-photos li#pic02:hover {
-	background-position:0px 0px;
-	background-size:100%;
-}
-
-ul#port-photos li#pic03 {
-	background: url('../assets/snippet-cheatsheet.png') no-repeat;
-	background-position:50% 50%;
-	background-color:#ffffff;
-}
-ul#port-photos li#pic03:hover {
-	background-position:0px 0px;
-	background-size:100%;
-}
 
 
 /*#########  ########################  #########################*/
