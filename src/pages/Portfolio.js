@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/Portfolio.css'
 import play from '../assets/4play.png';
 import gglass from '../assets/google-glass.png';
-import seo from '../assets/seo.png'
+import loveIsBlur from '../assets/loveIsBlur.png'
 import snippetcheat from '../assets/snippet-cheatsheet.png'
 import newbie from '../assets/newbieBay.png'
 import weather from '../assets/weather.png'
@@ -13,6 +13,9 @@ export default function Portfolio() {
   return (
 
     <div className="portfolio-container">
+
+      {/*############################################## Second Block line ################################# */}
+
       <div className="portfolio-card">
         <div className="row">
           <div className="col-lg-4">
@@ -33,27 +36,31 @@ export default function Portfolio() {
             </div>
           </div>
 
+          {/*############################################## Second image added ################################# */}
+
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
-              <a href="*" target="_blank" rel="noopener noreferrer">
+              <a href="https://love-is-blur.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img
-                src={seo}
+                src={loveIsBlur}
                 className="card-img-top"
-                alt="SEO website"
+                alt="Love is Blur"
               /></a>
               <div className="card-body">
-                <h5 className="card-title">SEO</h5>
+                <h5 className="card-title">Love is Blur</h5>
                 <p className="card-text">
-                Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards
+                Our dating app is all about prioritizing values over looks. Instead of basing decisions on appearances.Whether you're looking for a long-term relationship or just looking to meet new people, give our app a try and see the difference for yourself!
                 </p>
-                <a href="#!" className="btn btn-primary">GitHub</a>
+                <a href="https://github.com/luizborges146/love-is-blur" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
 
+          {/*############################################## Third image added ################################# */}
+
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
-               <a href="https://github.com/luizborges146/california-bay-area-guide" target="_blank" rel="noopener noreferrer">
+               <a href="https://darxmarx.github.io/california-bay-area-guide/" target="_blank" rel="noopener noreferrer">
               <img
                 src={newbie}
                 className="card-img-top"
@@ -68,8 +75,13 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
+
+      {/*############################################## Second Block line ################################# */}
+
+
       <div className="portfolio-card">
         <div className="row">
           <div className="col-lg-4">
@@ -89,7 +101,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          {/* ##############################################################################add it as a comment in the system #########################################################################################*/}
+          {/*############################################## Second image added ################################# */}
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
               <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">
@@ -108,6 +120,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+
+          {/*############################################## Third image added ################################# */}
 
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
