@@ -28,7 +28,7 @@ export default function Portfolio() {
                 <p className="card-text">
                 We developed the 4Play fullstack web application for users that has a passion for video games. The website allows the user to create an account, check game information, create comments about the games and also, search games by game name, genres and category.
                 </p>
-                <a href="https://github.com/luizborges146/california-bay-area-guide" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/luizborges146/Gameproject" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-lg-4">
             <div className="card">
-               <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">
+               <a href="https://luizborges146.github.io/weather-forecast/" target="_blank" rel="noopener noreferrer">
                 <img
                 src={weather}
                 className="card-img-top"
