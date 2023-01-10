@@ -13,8 +13,6 @@ export default function Portfolio() {
   return (
 
     <div className="portfolio-container">
-      <h2>In order to check the live deployment, please click on the picture</h2>
-
       {/*############################################## Second Block line ################################# */}
 
       <div className="portfolio-card">
@@ -33,6 +31,8 @@ export default function Portfolio() {
                 We developed the 4Play fullstack web application for users that has a passion for video games. The website allows the user to create an account, check game information, create comments about the games and also, search games by game name, genres and category.
                 </p>
                 <a href="https://github.com/luizborges146/Gameproject" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://fp-4play.herokuapp.com/0" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>
@@ -52,7 +52,8 @@ export default function Portfolio() {
                 <p className="card-text">
                 Our dating app is all about prioritizing values over looks. Instead of basing decisions on appearances.Whether you're looking for a long-term relationship or just looking to meet new people, give our app a try and see the difference for yourself!
                 </p>
-                <a href="https://github.com/luizborges146/love-is-blur" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/luizborges146/love-is-blur" className="btn btn-primary " target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://love-is-blur.herokuapp.com/" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>
@@ -73,6 +74,7 @@ export default function Portfolio() {
                 A handy, intuitive website that grants users a number of resources suited for life in California's bay area, utilizing multiple API calls to supplement well-crafted HTML and CSS elements.
                 </p>
                 <a href="https://github.com/luizborges146/california-bay-area-guide" className="btn btn-primary">GitHub</a>
+                <a href="https://darxmarx.github.io/california-bay-area-guide/" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>
@@ -99,6 +101,7 @@ export default function Portfolio() {
                 This is a weather dashboard to show the user the current weather for a specific location. It also display the weather for the next 5 days forecast, easy display and also user friendly layout.
                 </p>
                 <a href="https://github.com/luizborges146/weather-forecast" target="_blank" rel="noopener noreferrer"className="btn btn-primary">GitHub</a>
+                <a href="https://luizborges146.github.io/weather-forecast/" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>
@@ -117,6 +120,7 @@ export default function Portfolio() {
                 The idea of this application is to be able to manipulate the data using React. With that in mind, the user can choose from Create, Read, Update and Delete the text. the application save the information in the web browser, so even if you close it accidentally, once you reopen it, it will work again.
                 </p>
                 <a href="https://github.com/luizborges146/textEditor" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://young-meadow-84288.herokuapp.com/" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>
@@ -137,6 +141,7 @@ export default function Portfolio() {
                   The idea of this website is to show the users the advantage of buying a google glass and also the technologies. This website what built mostly using HTML CSS and JS. The website is not yet complete, still working on it.
                 </p>
                 <a href="https://github.com/luizborges146/google-glass" target="_blank" rel="noopener noreferrer"className="btn btn-primary">GitHub</a>
+                <a href="https://github.com/luizborges146/google-glass" className="btn btn-success" target="_blank" rel="noopener noreferrer">Deployed Link</a>
               </div>
             </div>
           </div>

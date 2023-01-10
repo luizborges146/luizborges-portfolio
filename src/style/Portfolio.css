@@ -40,6 +40,9 @@ a h5 {
 	text-decoration: none;
 }
 
+a.btn.btn-primary {
+    margin-right: 10px;
+}
 
 
 .work{
