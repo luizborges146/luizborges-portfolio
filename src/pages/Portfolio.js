@@ -3,7 +3,7 @@ import '../style/Portfolio.css'
 import play from '../assets/4play.png';
 import gglass from '../assets/google-glass.png';
 import loveIsBlur from '../assets/loveIsBlur.png'
-import snippetcheat from '../assets/snippet-cheatsheet.png'
+import textEditor from '../assets/TextEditor.png'
 import newbie from '../assets/newbieBay.png'
 import weather from '../assets/weather.png'
 
@@ -13,6 +13,7 @@ export default function Portfolio() {
   return (
 
     <div className="portfolio-container">
+      <h2>In order to check the live deployment, please click on the picture</h2>
 
       {/*############################################## Second Block line ################################# */}
 
@@ -104,19 +105,18 @@ export default function Portfolio() {
           {/*############################################## Second image added ################################# */}
           <div className="col-lg-4 d-none d-lg-block">
             <div className="card">
-              <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">
+              <a href="https://young-meadow-84288.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img
-                src={snippetcheat}
+                src={textEditor}
                 className="card-img-top"
                 alt="Sunset Over the Sea"
               /></a>
               <div className="card-body">
                 <h5 className="card-title">Snippet Cheatsheet</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
+                The idea of this application is to be able to manipulate the data using React. With that in mind, the user can choose from Create, Read, Update and Delete the text. the application save the information in the web browser, so even if you close it accidentally, once you reopen it, it will work again.
                 </p>
-                <a href="#!" className="btn btn-primary">GitHub</a>
+                <a href="https://github.com/luizborges146/textEditor" className="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
