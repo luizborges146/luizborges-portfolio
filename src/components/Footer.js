@@ -12,6 +12,9 @@ export default function Footer() {
                 <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.linkedin.com/in/luiz-borges-2377b7142" role="button" data-mdb-ripple-color="dark">
                 <i class="fab fa-github icons-footer"></i></a>
 
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="luiz.borges.146@gmail.com" role="button" data-mdb-ripple-color="dark">
+                <i class="fa-regular fa-envelope icons-footer"></i></a>
+
             </section>
             </div>
 
