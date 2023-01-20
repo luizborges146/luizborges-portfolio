@@ -9,8 +9,8 @@ export default function Home() {
       <section class ="my-name">
         <h3>Hey, my name is</h3>
         <h2 class="change-color">Luiz Borges</h2>
-        <h3>I am on my way to become a</h3>
-        <h2 class="change-color">Full Stack Web</h2>
+        <h3>I am</h3>
+        <h2 class="change-color">Full Stack</h2>
         <h2 class="change-color">Web Developer</h2>
 
       </section>
